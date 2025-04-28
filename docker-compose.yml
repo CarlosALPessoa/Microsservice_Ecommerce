@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  catalog:
+    build: ./backend/catalog
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./catalog_service/static/img:/app/static/img
+
+networks:
+  microsservices_network:

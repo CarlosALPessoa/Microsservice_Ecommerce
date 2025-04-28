@@ -1,0 +1,21 @@
+[
+    {
+        "titulo": "Livro Aventura",
+        "descricao": "Uma grande jornada em terras desconhecidas.",
+        "preco": 39.90,
+        "image": "aventura.jpg"
+    },
+    {
+        "titulo": "Livro Romance",
+        "descricao": "Uma história de amor inesquecível.",
+        "preco": 29.90,
+        "image": "romance.jpg"
+    },
+    {
+        "titulo": "Livro Mistério",
+        "descricao": "Segredos que desafiam a lógica.",
+        "preco": 49.90,
+        "image": "misterio.jpg"
+    }
+    
+]
