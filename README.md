@@ -59,7 +59,6 @@ A API estará disponível em: http://localhost:8000
 A documentação automática (Swagger UI) estará em: http://localhost:8000/docs
 
 🐳 Estrutura de Diretórios
-│
 
     │── backend/
         │── catalog/
