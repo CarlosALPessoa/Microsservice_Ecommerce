@@ -6,17 +6,15 @@ Este projeto é um microsserviço para catálogo de produtos (livros), desenvolv
 
 🛠️ Tecnologias Utilizadas
 
-FastAPI — Framework moderno para APIs com Python
+> FastAPI — Framework moderno para APIs com Python
 
-Uvicorn — Servidor ASGI rápido para FastAPI
+> Uvicorn — Servidor ASGI rápido para FastAPI
 
-SQLAlchemy — ORM para interação com banco de dados
+> SQLAlchemy — ORM para interação com banco de dados
 
-PostgreSQL — Banco de dados relacional (planejado ou opcional)
+> Docker — Contênirização da aplicação
 
-Docker — Contênirização da aplicação
-
-Docker Compose — Orquestração de múltiplos serviços
+> Docker Compose — Orquestração de múltiplos serviços
 
 📄 Descrição do Projeto
 
@@ -28,11 +26,9 @@ Listar livros cadastrados
 
 Consultar detalhes de um livro por ID
 
-Atualizar informações de livros
+A comunicação é feita via API REST(http://localhost:8000/docs).
 
-Deletar livros
-
-Toda a comunicação é feita via API REST.A aplicação está pronta para rodar em ambientes containerizados usando Docker, facilitando deploys e escalabilidade.
+A aplicação está pronta para rodar em ambientes containerizados usando Docker, facilitando deploys e escalabilidade.
 
 🚀 Como Rodar o Projeto
 
@@ -44,14 +40,11 @@ Docker Compose (geralmente já vem com o Docker Desktop)
 
 Passos para rodar o microsserviço:
 
-Clone o repositório:
-
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio/backend/catalog
+1. Clone o repositório.
 
 Suba o serviço com Docker Compose:
 
-docker compose up --build
+3. docker compose up --build
 
 Este comando irá:
 
@@ -91,9 +84,3 @@ docker compose logs -f
 Acessar o terminal do contêiner:
 
 docker exec -it flask_micro-catalog-1 /bin/bash
-
-📌 Notas Importantes
-
-Arquivos estáticos: não são utilizados neste projeto, portanto o mount de diretórios foi removido.
-
-Banco de dados: o exemplo atual pode utilizar SQLite em memória ou PostgreSQL, dependendo da configuração.
