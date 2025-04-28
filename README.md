@@ -44,7 +44,7 @@ Passos para rodar o microsserviço:
 
 Suba o serviço com Docker Compose:
 
-3. docker compose up --build
+2. docker compose up --build
 
 Este comando irá:
 
