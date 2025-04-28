@@ -59,26 +59,18 @@ A API estará disponível em: http://localhost:8000
 A documentação automática (Swagger UI) estará em: http://localhost:8000/docs
 
 🐳 Estrutura de Diretórios
+│
 
-backend/
-
-└── catalog/
-
-    ├── app/
-    
-    │   ├── main.py
-    
-    │   ├── models.py
-    
-    │   ├── routers/
-    
-    │   ├── schemas.py
-    
-    │   └── database.py
-    
-    ├── Dockerfile
-    
-    └── docker-compose.yml
+    │── backend/
+        │── catalog/
+            ├── app/
+            │   ├── main.py
+            │   ├── models.py
+            │   ├── routers/
+            │   ├── schemas.py
+            │   └── database.py
+            ├── Dockerfile
+            └── docker-compose.yml
 
 ⚙️ Comandos Útéis
 
